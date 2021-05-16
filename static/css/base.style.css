@@ -6641,10 +6641,6 @@ button.bg-dark:focus {
   justify-content: center !important;
 }
 
-.justify-content-left {
-  justify-content: left !important;
-}
-
 .justify-content-between {
   justify-content: space-between !important;
 }
@@ -10158,7 +10154,7 @@ h3 {
 .masthead .masthead-avatar {
   width: 15rem;
   border: 1px solid black;
-  border-radius: 50%;
+  border-radius: 5%;
   border: 1px solid #212529;
 }
 

@@ -6,4 +6,5 @@ app_name = "Resume"
 
 urlpatterns = [
     path('', views.index, name="index"),
+    path('first/', views.first, name='first'),
 ]

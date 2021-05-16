@@ -1,0 +1,79 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="{% static 'css/styles.css' %}" rel="stylesheet"/>
+    <link href="{% static 'css/style.test.css' %}" rel="stylesheet"/>
+    <link href="{% static 'css/nav.style.css' %}" rel="stylesheet"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="{% static 'js/testing.js' %}"></script>
+</head>
+<body>
+    <!-- Grey with black text -->
+    <nav class="navbar navbar-expand-sm navbar-light justify-content-center">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="/first/">Dashboard</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Classes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/">Grades</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Assignments</a>
+            </li>
+        </ul>
+    </nav>
+
+<div class="container">
+    <div class="row">
+        <div class='col-4'>
+            <div class='box'>
+                <img class="img-fluid justify-content-left" src="{% static 'assets/img/portfolio/Scrape-Amazon-Reviews.png' %}" alt="..." />
+            </div>
+        </div>
+        <div class="col-6">
+            <h4 class="justify-content-center align-items-center justify-content-center">Amazon to Woo-Extractor</h4>
+            <p>This is Amazon Products date Extractor. This System software extract or scrape the products data from Amazon.com and upload it to Woo-Commerce. This software use a Woo-Commerce REST-APIs to pull the data into Woo-Commerce database.</p>
+            <a href="https://github.com/shujaakbar2020/Amazon-Woo-Extractor">Link to Github.com</a>
+        </div>
+    </div>
+    <div class="divider-custom">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+        <div class="divider-custom-line"></div>
+    </div>
+    <div class="row">
+        <div class='col-4'>
+            <div class='box'>
+                <img class="img-fluid justify-content-left" src="{% static 'assets/img/portfolio/Scrape-Amazon-Reviews.png' %}" alt="..." />
+            </div>
+        </div>
+        <div class="col-6">
+            <h4 class="justify-content-center align-items-center justify-content-center">Blush And Blooms</h4>
+            <p>A large scale Ecommerce platform. This platform is a one step to Amazon Affiliate Marketing program and also reselling Amazon products in Pakistan.</p>
+            <a href="https://github.com/shujaakbar2020/Blush-Blooms">Link to Github.com</a>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap core JS-->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Third party plugin JS-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+<!-- Contact form JS-->
+<script src="{% static 'assets/mail/jqBootstrapValidation.js' %}"></script>
+<script src="{% static 'assets/mail/contact_me.js' %}"></script>
+<!-- Core theme JS-->
+<script src="{% static 'js/scripts.js' %}"></script>
+<script>
+
+</script>
+</body>
+</html>

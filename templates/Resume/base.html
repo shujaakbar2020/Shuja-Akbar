@@ -15,7 +15,8 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="{% static 'css/styles.css' %}" rel="stylesheet" />
+        <link href="{% static 'css/base.style.css' %}" rel="stylesheet" />
+        <link href="{% static 'css/style.test.css' %}" rel="stylesheet" />
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -39,7 +40,8 @@
         <header class="masthead bg-primary text-white text-center">
             <div class="container d-flex align-items-center flex-column">
                 <!-- Masthead Avatar Image-->
-                <img class="masthead-avatar mb-5" src="{% static 'assets/img/avataaars.svg' %}" alt="..." />
+                <!-- <img class="masthead-avatar mb-5" src="{% static 'assets/img/avataaars.svg' %}" alt="..." /> -->
+                <img class="masthead-avatar mb-5" src="{% static 'img/akbar.jpg' %}" alt="..." />
                 <!-- Masthead Heading-->
                 <h1 class="masthead-heading text-uppercase mb-0">Shuja Akbar</h1>
                 <!-- Icon Divider-->
@@ -52,6 +54,8 @@
                 <p class="masthead-subheading font-weight-light mb-0">Software Engineer - Web Designer - Web Developer</p>
             </div>
         </header>
+
+
         <!-- Portfolio Section-->
         <section class="page-section portfolio" id="portfolio">
             <div class="container">
@@ -107,7 +111,7 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="{% static 'assets/img/portfolio/safe.png' %}" alt="..." />
+                            <img class="img-fluid" src="{% static 'assets/img/portfolio/woo.png' %}" alt="..." />
                         </div>
                     </div>
                     <!-- Portfolio Item 6-->
@@ -122,6 +126,59 @@
                 </div>
             </div>
         </section>
+
+        <!-- Very Good -->
+
+        <div class="container">
+            <div class="row">
+                <div class='col-4'>
+                    <div class='box'>
+                        <img class="img-fluid justify-content-left" src="{% static 'assets/img/portfolio/Scrape-Amazon-Reviews.png' %}" alt="..." />
+                    </div>
+                </div>
+                <div class="col-8">
+                    <br>
+                    <h4 class="justify-content-center align-items-center justify-content-center">Amazon to Woo-Extractor</h4>
+                    <p>This is Amazon Products date Extractor. This System software extract or scrape the products data from Amazon.com and upload it to Woo-Commerce. This software use a Woo-Commerce REST-APIs to pull the data into Woo-Commerce database.</p>
+                    <br>
+                    <a href="https://github.com/shujaakbar2020/Amazon-Woo-Extractor">Link to Github.com</a>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class='col-4'>
+                    <div class='box'>
+                        <img class="img-fluid justify-content-left" src="{% static 'assets/img/portfolio/cabin.png' %}" alt="..." />
+                    </div>
+                </div>
+                <div class="col-8">
+                    <br>
+                    <h4 class="justify-content-center align-items-center justify-content-center">Blush And Blooms</h4>
+                    <p>A large scale Ecommerce platform. This platform is a one step to Amazon Affiliate Marketing program and also reselling Amazon products in Pakistan.</p>
+                    <br>
+                    <a href="https://github.com/shujaakbar2020/Blush-Blooms">Link to Github.com</a>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class='col-4'>
+                    <div class='box'>
+                        <img class="img-fluid justify-content-left" src="{% static 'assets/img/portfolio/cake.png' %}" alt="..." />
+                    </div>
+                </div>
+                <div class="col-8">
+                    <br>
+                    <h4 class="justify-content-center align-items-center justify-content-center">Centurian Exchange Automated Testing</h4>
+                    <p>A large scale Ecommerce platform. This platform is a one step to Amazon Affiliate Marketing program and also reselling Amazon products in Pakistan.</p>
+                    <br>
+                    <a href="https://github.com/shujaakbar2020/CenturionExchange.git">Link to Github.com</a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Good -->
+
         <!-- About Section-->
         <section class="page-section bg-primary text-white mb-0" id="about">
             <div class="container">
@@ -135,7 +192,7 @@
                 </div>
                 <!-- About Section Content-->
                 <div class="row">
-                    <div class="col-lg-4 ml-auto"><p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p></div>
+                    <div class="col-lg-4 ml-auto"><p class="lead">A self-motivated individual, wants to coordinate with team of highly experienced professionals for his personal as well as cooperative growth. Having excellent mathematical and problem solving skills and ability to tackle any urgent situation. Seeking for opportunity to exhibit my skills.</p></div>
                     <div class="col-lg-4 mr-auto"><p class="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p></div>
                 </div>
                 <!-- About Section Button-->
@@ -149,6 +206,9 @@
                 -->
             </div>
         </section>
+
+
+
         <!-- Contact Section-->
         <section class="page-section" id="contact">
             <div class="container">

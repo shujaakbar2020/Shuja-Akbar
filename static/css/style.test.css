@@ -1,0 +1,36 @@
+* {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        html,body {width:100%; height:100%;}
+        .container {
+            padding: 40px 5%;
+            width: 100%;
+            overflow: auto;
+        }
+        .col-4 {
+            width: calc(100% /4);
+            float: left;
+            padding: 5px .5rem;
+            margin-top: 10px;
+        }
+        .img-fluid {
+            height: 12.5rem;
+            width: 17rem;
+            border-radius: 10px;
+        }
+        .justify-content-left {
+            justify-content: left;
+        }
+        .justify-content-center {
+            justify-content: center;
+        }
+        .box {
+            height: 12.5rem;
+            width: 17rem;
+            background-color: #aaa;
+            border-radius: 10px;
+        }
+
+
